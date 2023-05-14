@@ -8,8 +8,53 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
+<script type="text/javascript" src="./script.js">
 </script>
+
+
+<form method="post">
+    <h1>Job App Form</h1>
+    <div>
+        <label for="name">Name* </label><input type="text" name="name" id="name" required="required">
+    </div>
+    <br>
+    <div>
+        <label for="email">Email* </label><input type="text" name="email" id="email" required="required">
+    </div>
+    <br>
+    <div>
+        <label for="gender">Gender* </label><input type="radio" name="gender" id="gender" value="male" required="required">Male
+        <input type="radio" name="gender" id="gender" value="female" required="required">Female
+    </div>
+    <br>
+    <div>
+        <label for="laptop">Laptop Brands </label><input type="checkbox" name="laptop" id="laptop" value="Apple">Apple
+         <input type="checkbox" name="laptop" id="laptop" value="Asus">Asus
+         <input type="checkbox" name="laptop" id="laptop" value="HP">HP
+    </div>
+    <br>
+    <div>
+        <label for="age">Age* </label><input type="number" name="age" id="age" min="18" max="150" required="required">
+    </div>
+    <br>
+    <div>
+        <label for="dob">DOB* </label><input type="date" name="dob" id="dob" required="required">
+    </div>
+    <br>
+    <div>
+        <label for="password">Password* </label><input type="password" name="password" id="password" required="required">
+    <br>
+    </div>
+    <br>
+    <div>
+        <label for="portfolio">Portfolio </label><input type="text" name="portfolio" id="portfolio">
+    </div>
+    <br>
+    <div>
+        <input type="submit" name="submit" value="Submit">
+    </div>
+
+</form>
 
 </body>
 
